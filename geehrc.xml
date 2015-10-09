@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<remote name="mm-og" fetch="git://github.com/marshmallow-og/" />
+
+<project path="device/lge/geehrc" name="android_device_lge_geehrc" groups="device" remote="mm-og" revision="master" />
+
+<project path="vendor/lge/gee" name="proprietary_vendor_lge_gee" remote="mm-og" revision="marshmallow-release" />
+
+</manifest>
